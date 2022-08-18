@@ -5,6 +5,8 @@ import Footer from './Footer';
 import Dd from './Home';
 import Profile from './Profile';
 import About from './About';
+import Post from './Post';
+import PostDetails from './PostDetails';
 
 class App extends Component {
     render() {
@@ -14,7 +16,9 @@ class App extends Component {
                 <div className='container'>
                     <Route exact path="/" component={Dd} />
                     <Route path='/profile' component={Profile} />
-                    <Route path="/about" component={About} />
+                    <Route path="/about" component={About} />                    
+                    <Route path="/posts/:topic" component={PostDetails}/>
+                    <Route exact path="/posts" component={Post} />
                 </div>
                 <Footer/>
             </BrowserRouter>
