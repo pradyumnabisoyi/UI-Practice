@@ -1,0 +1,273 @@
+.header {
+    height: 200px;
+    width: 100%;
+    /*background-color: #50e2e6;*/
+    background-image: linear-gradient(to bottom right, #50e2e6, #50e2e7);
+    /*border: 2px solid olive;
+    opacity: 10;*/
+}
+
+#profile-pic img {
+    height: 212px !important;
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 42%;
+    margin-top: 4%;
+    box-shadow: 10px 10px 10px gray;
+    /*border: 1px solid gray;*/
+}
+
+#profile-pic img:hover {
+    box-shadow: 0 0 5px gray;
+}
+
+.content {
+    width: 80%;
+    /*border: 2px dotted green;*/
+    margin-top: 1px;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.about {
+    width: 100%;
+    /*border: 10px solid black;*/
+    /*background-color: #C6CBD6;*/
+    display: inline-block;
+}
+
+.about-1 {
+    width: 55%;
+    float: left;
+    /*border: 10px solid black;*/
+}
+
+.about-2 {
+    width: 35%;
+    float: right;
+    margin-top: 5%;
+    /*border: 10px solid green;*/
+}
+
+.about-2 div {
+    width: 100%;
+}
+
+#company-name {
+    font-size: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+#university-name {
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: bold;
+}
+.about-1 .name{
+    text-align: left;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.about-1 .details{
+    text-align: left;
+    font-size: 19px;
+}
+
+.about-1 .details span{
+    display: block;
+}
+
+.about .contact{
+    margin-top: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+.about .contact span {
+    color: #058d9e;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.skills {
+    width: 100%;
+    display: inline-block;
+}
+
+.inner-heading {
+    height: 70px;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #50e2e6;
+}
+
+.skills-details {
+    width: 100%;
+    /*border: 2px gray dotted;*/
+    display: inline-block;
+    margin-top: 2%;
+}
+
+.skill-card {
+    height: 110px;
+    width: 110px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    box-shadow: 7px 7px 4px gray;
+}
+
+.skill-card:hover {
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 5px gray;
+}
+#skill-title {
+    text-align: center;
+    margin-top: 38px;
+    color: white;
+    font-size: 23px;
+}
+.java {
+    background-color: #328da8;
+}
+.hibernate {
+    background-color: #948e72;
+}
+.spring {
+    background-color: #03ad58;
+}
+.oracle {
+    background-color: red;
+}
+
+.jenkins {
+    background-color: #e7e8e1;
+}
+.git {
+    background-color: #ba6647;
+}
+.react {
+    background-color: #a4e2f5;
+}
+.experience {
+    width: 100%;
+    margin-top: 10px;
+ /*   border: 1px solid gray;*/
+    display: inline-block;
+}
+
+.experience-card {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+}
+.designation {
+    float: left;
+    font-size: 22px;
+    width: 44%;
+    margin-top: 1%;
+    
+    margin-left: 3%;
+    text-align: right;
+}
+.logo {
+    float: left;
+    font-size: 31px;
+    margin-left: 1%;
+    height: 30px;
+    width: 50px;
+    margin-top: 6px;
+}
+.logo span {
+    margin-left: 10px;
+}
+.company {
+    margin-right: 3%;
+    
+    float: right;
+    font-size: 27px;
+    width: 40%;
+}
+.education {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.education-card {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.interest {
+    height: 300px;
+    width: 100%;
+    /*border: 5px dotted red;*/
+}
+
+.interest-card {
+    height: 110px;
+    width: 110px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.cooking {
+    margin-left: 38%;
+    float: left;
+}
+
+.astro {
+    margin-left: 30px;
+    float: left;
+}
+
+.interest-card img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20%;
+    box-shadow: 7px 7px 4px gray;
+}
+
+.interest-card img:hover {
+    box-shadow: 0 0 5px gray;
+}
+
+.contact-us {
+    width: 100%;
+}
+
+.map {
+    height: 400px;
+    width: 48%;
+    float: left;
+}
+.address {
+    width: 33%;
+    float: right;
+    margin-top: 5%;
+}
+.address div {
+    width: 100%;
+    margin: 3%;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.map iframe {
+    height: 100%;
+    width: 100%;
+}
+.footer {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #50e2e6;
+}
