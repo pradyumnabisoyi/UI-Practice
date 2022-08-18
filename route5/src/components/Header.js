@@ -1,18 +1,22 @@
-import React, {Component} from 'react';
-import {Link } from 'react-router-dom';
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render() {
         return (
-            <div>
-                <div>Chatashali</div>
-                <div>
-                    <Link to='/'>Home</Link>
-                    <Link to='/profile'>Profile</Link>
-                    <Link to='/about'>About</Link>
+            <nav className="navbar navbar-inverse">
+                <div className="container-fluid">
+                    <div className="navbar-header">
+                        <div className="navbar-brand">Chatashali</div>
+                    </div>
+                    <ul className="nav navbar-nav">
+                        <li><Link to='/'>Home</Link></li>
+                        <li><Link to='/profile'>Profile</Link></li>
+                        <li><Link to='/about'>About</Link></li>
+                    </ul>
                 </div>
-                <hr/>
-            </div>
+            </nav>
+
         )
     }
 }

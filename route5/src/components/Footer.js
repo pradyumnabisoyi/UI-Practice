@@ -1,12 +1,12 @@
 import React from 'react';
+import './footer.css';
 
 const Footer = () => {
 
     return (
-        <div>
-            <hr />
+        <footer>
             <div>&copy;Chatashali</div>
-        </div>
+        </footer>
     )
 
 }
